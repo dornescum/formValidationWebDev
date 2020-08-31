@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+  <style>
+    .container {
+      width: 65%;
+      max-width: 65em;
+      margin: auto;
+      border: 1px solid red;
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+    }
+    form {
+      padding: 10px;
+      text-align: center;
+      text-justify: auto;
+      text-transform: uppercase;
+    }
+    .formular {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+      <div class="formular">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+      </div>
+      <div class="formular">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>
